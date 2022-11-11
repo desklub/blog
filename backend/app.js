@@ -11,8 +11,8 @@ app.use("/api/user", router);
 app.use("/api/blog", blogRouter);
 mongoose
   .connect(
-    // "mongodb+srv://Vincent:isaac1989@ap.hyolreh.mongodb.net/Ugah?retryWrites=true&w=majority"
-    "mongodb+srv://desklub:onyedika11@ap.bljtebw.mongodb.net/First-DB?retryWrites=true&w=majority"
+    "mongodb+srv://Vincent:isaac1989@ap.hyolreh.mongodb.net/Ugah?retryWrites=true&w=majority"
+    // "mongodb+srv://desklub:onyedika11@ap.bljtebw.mongodb.net/First-DB?retryWrites=true&w=majority"
   )
   .then(() => app.listen(5000))
   .then(() =>
